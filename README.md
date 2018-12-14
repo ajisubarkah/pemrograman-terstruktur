@@ -22,6 +22,10 @@ IDE|Platform|
 **Dev-C++**|Windows|
 **Visual Studio Express**|Windows|
 
+### Struktur Dasar
+
+### Input Output
+
 ### Type Data
 
 ### Operator
