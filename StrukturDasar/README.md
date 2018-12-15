@@ -2,7 +2,7 @@
 
 ![screen](https://raw.githubusercontent.com/ajisubarkah/Pemrograman-Terstruktur/tree/master/src/sd-01.png)
 
-Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/master/StrukturDasar/hello.cpp) diatas terdapat :
+Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/master/StrukturDasar/hello.cpp) diatas terdapat :
 
 ### Include
 	
@@ -16,7 +16,7 @@ Import header pada C++ diawali dengan `#include <nama_header>` untuk file header
 	
 Namespace dirancang untuk mengatasi kesulitan dan digunakan sebagai informasi tambahan untuk membedakan fungsi, kelas, variabel, dll yang serupa dengan nama yang sama tersedia di header yang berbeda.
 
-![screen](https://raw.githubusercontent.com/ajisubarkah/Pemrograman-Terstruktur/tree/master/src/sd-02.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/Pemrograman-Terstruktur/master/src/sd-02.png)
 
 Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/master/StrukturDasar/namespace.cpp) diatas merupakan penggunaan namespace tanpa di deklarasi terlebih dahulu. Sebelum menuliskan `cout` kita perlu mendeklarasi `std::cout` terlebih dahulu.
 
@@ -33,7 +33,7 @@ Main pada program merupakan tempat eksekusi program dimulai.
 		return 0;
 	} // end blok main
 	
-Pada program C++, titik koma ";" (Semicolon) adalah akhir dari pernyataan. Setiap pernyataan harus di akhiri oleh ";". Misalnya :
+Pada program C++, titik koma ";" (*Semicolon*) adalah akhir dari pernyataan. Setiap pernyataan harus di akhiri oleh ";". Misalnya :
 	
 	a = 1;
 	b = a + 1;
@@ -51,10 +51,10 @@ Sebuah baris yang hanya berisi spasi dikenal sebagai garis kosong, dan kompiler 
 
 Whitespace memisahkan satu bagian dari pernyataan dari yang lain dan memungkinkan compiler untuk mengidentifikasi di mana satu elemen dalam pernyataan, seperti int, berakhir, dan elemen selanjutnya dimulai.
 
-	int name;
+	int angka;
 	
-Dalam pernyataan di atas harus ada whitespace (spasi) antara `int` dan `name` supaya compiler dapat membedakannya.
+Dalam pernyataan di atas harus ada whitespace (spasi) antara `int` dan `angka` supaya compiler dapat membedakannya.
 
 	name = firstName + lastName;
 	
-Pada pernyataan di atas, tidak membutuhkan whitespace antara `name` dan `=`, atau `=` dan `firstName`, meskipun dapat menyertakan whitespace untuk keterbacaan.
+Pada pernyataan di atas, tidak membutuhkan whitespace antara `name` dan `=`, atau `=` dan `firstName`, meskipun dapat menyertakan whitespace untuk readability.
