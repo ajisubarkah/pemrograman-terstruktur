@@ -1,8 +1,8 @@
 # Struktur Dasar - C++
 
-![screen](https://raw.githubusercontent.com/ajisubarkah/Pemrograman-Terstruktur/tree/master/src/sd-01.png)
+![screen](https://raw.githubusercontent.com/ajisubarkah/Pemrograman-Terstruktur/master/src/sd-01.png)
 
-Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/master/StrukturDasar/hello.cpp) diatas terdapat :
+Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/master/StrukturDasar/hello.cpp) diatas terdapat :
 
 ### Include
 	
