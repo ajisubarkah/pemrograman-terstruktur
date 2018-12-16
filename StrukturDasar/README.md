@@ -8,11 +8,11 @@ Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/maste
 	
 	#include <iostream>
 	
-Import header pada C++ diawali dengan `#include <nama_header>` untuk file header yang dibuat oleh user menggunakan `#include "nama_header"`. File header memiliki extensi ".h".
+Import header pada C++ diawali dengan `#include <nama_header>` untuk file header yang dibuat oleh user menggunakan `#include "nama_header.h"`. File header memiliki extensi `.h`.
 
 ### Namespace
 	
-	using namspace std;
+	using namespace std;
 	
 Namespace dirancang untuk mengatasi kesulitan dan digunakan sebagai informasi tambahan untuk membedakan fungsi, kelas, variabel, dll yang serupa dengan nama yang sama tersedia di header yang berbeda.
 
@@ -22,18 +22,20 @@ Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/maste
 
 ### Fungsi main()
 
-	main()
+	main(){
+		//*TODO* program execute
+	}
 
 Main pada program merupakan tempat eksekusi program dimulai.
 
 ### Semicolon dan Blocks
 
-	main(){ //blok main
+	main(){ // begin blok main
 		cout << "Hello World!";
 		return 0;
 	} // end blok main
 	
-Pada program C++, titik koma ";" (*Semicolon*) adalah akhir dari pernyataan. Setiap pernyataan harus di akhiri oleh ";". Misalnya :
+Pada program C++, titik koma `;` (*Semicolon*) adalah akhir dari pernyataan. Setiap pernyataan harus di akhiri oleh `;`. Misalnya :
 	
 	a = 1;
 	b = a + 1;
@@ -43,7 +45,7 @@ Sama saja dengan
 	
 	a = 1; b = a + 1; hasil = a + b;
 	
-Blok adalah serangkaian pernyataan yang terhubung diawali oleh "{" dan diakhiri oleh "}".
+Blok adalah serangkaian pernyataan yang terhubung diawali oleh `{` dan diakhiri oleh `}`.
 
 ### Whitespace
 
