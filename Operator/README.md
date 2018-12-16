@@ -1,2 +1,1 @@
-# Srutkur Dasar - C++
-
+# Strutkur Dasar - C++
