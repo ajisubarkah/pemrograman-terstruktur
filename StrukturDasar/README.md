@@ -23,7 +23,7 @@ Pada [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/maste
 ### Fungsi main()
 
 	main(){
-		//*TODO* program execute
+		//TODO program execute
 	}
 
 Main pada program merupakan tempat eksekusi program dimulai.

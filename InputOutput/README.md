@@ -21,7 +21,7 @@ Selain basic input output diatas masih ada beberapa lagi penggunaan input output
 
 ## cout dan cin
 
-Penggunaan `cout` dan `cin` menggunakan library `iostream`. Contoh [program]()
+Penggunaan `cout` dan `cin` menggunakan library `iostream`.
 
 Contoh [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/master/InputOutput/cout_cin.cpp)
 
@@ -30,8 +30,8 @@ Contoh [program](https://github.com/ajisubarkah/Pemrograman-Terstruktur/tree/mas
 Format dalam penulisan `cout` menggunakan *insertion operator* yang ditulis dengan `<<`.
 
 	cout << "Hello I'm Mr. Plankton"; 	// menampilkan sentence di layar
-	cout << 100;						// menampilkan angka 100 di layar
-	cout << x;							// menampilkan value dari variabel x di layar
+	cout << 100;					// menampilkan angka 100 di layar
+	cout << x;					// menampilkan value dari variabel x di layar
 	
 Untuk menampilkan string literal, pernyataan harus diapit oleh double quotes `"`. Sedangkan untuk menampilkan isi variabel dan angka tidak membutuhkan double quotes.
 
@@ -104,7 +104,7 @@ Input `scanf` juga memiliki return value jika inputan berhasil dilakukan yaitu b
 
 ## getline
 
-`getline` adalah fungsi input untuk `string` yang dapat membaca `whitespace` di dalam inputan. Di dalam fungsi `cin` dan `scanf` untuk penginputan `string` tidak dapat membaca `whitespace`, jadi pembacaan inputan berhenti ketika terdapat `whitespace`. Untuk format penulisan `getline` sebagai berikut :
+`getline` adalah fungsi input untuk string yang dapat membaca whitespace di dalam inputan. Di dalam fungsi `cin` dan `scanf` untuk penginputan string tidak dapat membaca whitespace, jadi inputan berhenti ketika terdapat whitespace. Untuk format penulisan `getline` sebagai berikut :
 
 	getline(cin, varString);
 
