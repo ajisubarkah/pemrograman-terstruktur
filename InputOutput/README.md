@@ -25,7 +25,7 @@ Penggunaan `cout` dan `cin` menggunakan library `iostream`.
 
 Contoh [program (`cout_cin.cpp`)](cout_cin.cpp)
 
-## *Output* cout
+## Output `cout`
 
 Format dalam penulisan `cout` menggunakan *insertion operator* yang ditulis dengan `<<`.
 
