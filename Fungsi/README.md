@@ -3,9 +3,9 @@
 Fungsi merupakan kumpulan statement yang dapat melakukan sebuah task. Pada C++ setiap program harus memiliki setidaknya satu fungsi, yaitu `main()` dan selain itu disebut fungsi tambahan. Format pendeklarasian suatu fungsi sebagai berikut :
 
 ```cpp
-return_type function_name( parameter list )	// header fungsi
+return_type function_name( parameter list ) // header fungsi
 { 	
-   body of the function						// body fungsi
+   body of the function                     // body fungsi
 }
 ```
 
@@ -36,7 +36,7 @@ int max(int a, int b) {
 Pada penggunaan fungsi return value untuk mengembalikan nilai harus menggunakan `return` yang kemudian diikuti dengan nilai yang akan di kembalikan. Nilai dari return fungsi dapat ditampung di dalam variabel lain yang terdapat di `main` program. Contoh sebagai berikut :
 
 ```cpp
-	int resultMax = max(a, b);
+int resultMax = max(a, b);
 ```
 
 ### Function No Return Type
@@ -63,7 +63,7 @@ Pada C++ fungsi dapat dideklarasikan secara terpisah dengan cara membuat header 
 double divide(int a, int b);
 
 main() {
-	// TODO: Body main program
+     // TODO: Body main program
 }
 
 double divide(int a, int b) {
@@ -89,7 +89,7 @@ Pada dasarnya C++ menggunakan **call by value** untuk memberikan argumen secara 
 void callByValue(int a, int b) {
     a *= 2;
     b *= 2;
-	cout << "A : " << a << " B : " << b << endl;
+    cout << "A : " << a << " B : " << b << endl;
 }
 ```
 
