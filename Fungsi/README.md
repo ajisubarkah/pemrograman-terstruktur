@@ -124,3 +124,8 @@ long faktorial(int n) {
 ```
 
 Pada faktorial akan memanggil dirinya sendiri hingga `n` bernilai 0 yang kemudian akan di `return 1;` yang berarti akan mengembalikan nilai yang telah tertampung.
+
+
+##$ Example Recursivity
+
+- [Program konversi_kapital.cpp](konversi_kapital.cpp)
